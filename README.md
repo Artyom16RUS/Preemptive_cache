@@ -15,7 +15,6 @@
 
 Что реализованно:
 - Код написан согласно стандарту  _[wikipedia](https://en.wikipedia.org/wiki/Cache_replacement_policies#Least_recently_used_(LRU))_
-- API документировано в Java DOC.
 - Код покрыт JUnit тестами.
 - Код покрыт нагрузочными BenchMark тестами.
 
