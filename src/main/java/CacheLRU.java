@@ -18,12 +18,12 @@ class CacheLRU<K, V> {
      */
 
     public CacheLRU(int quantity) {
-        this.map = new LinkedHashMap<>() {
+        this.map = Collections.synchronizedMap(new LinkedHashMap<>() {
             @Override
             protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
                 return size() > quantity;
             }
-        };
+        });
     }
 
     /**
