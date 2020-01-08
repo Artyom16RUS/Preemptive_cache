@@ -4,19 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>ru.enrise</groupId>
     <artifactId>CasheLRU</artifactId>
     <version>1.1</version>
-    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javaker.version>1.0.1</javaker.version>
-<!--        <java.version>1.7</java.version>-->
-        <github.global.server>github</github.global.server>
-        <github.maven-plugin>0.9</github.maven-plugin>
     </properties>
 
     <build>
@@ -123,51 +118,6 @@
             <artifactId>junit</artifactId>
             <version>4.11</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>${javaker.version}</version>
-        </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>itpark</id>
-            <url>http://192.168.99.101:8081/repository/itpark/</url>
-        </repository>
-    </distributionManagement>
-
-    <repositories>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cache</url>
-        </repository>
-    </repositories>
-
-
-
-
-    <!--    <distributionManagement>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <name>Preemptive cache</name>-->
-    <!--            <url>file://${project.build.directory}/mvn-repo</url>-->
-    <!--        </repository>-->
-    <!--    </distributionManagement>-->
-
-    <!--    <distributionManagement>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cahe</url>-->
-    <!--        </repository>-->
-    <!--    </distributionManagement>-->
-
-    <!--    <repositories>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cahe</url>-->
-    <!--        </repository>-->
-    <!--    </repositories>-->
-
-    <!--    mvn deploy -Dregistry=https://maven.pkg.github.com/Artyom16RUS -Dtoken=GH_TOKEN-->
 </project>
