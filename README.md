@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Artyom16RUS/Preemptive_cahe.svg?branch=master)](https://travis-ci.com/Artyom16RUS/Preemptive_cahe) [![codecov](https://codecov.io/gh/Artyom16RUS/Preemptive_cahe/branch/master/graph/badge.svg)](https://codecov.io/gh/Artyom16RUS/Preemptive_cahe)
+[![Build Status](https://travis-ci.org/Artyom16RUS/Preemptive_cache.svg?branch=master)](https://travis-ci.org/Artyom16RUS/Preemptive_cache) [![codecov](https://codecov.io/gh/Artyom16RUS/Preemptive_cache/branch/master/graph/badge.svg)](https://codecov.io/gh/Artyom16RUS/Preemptive_cache)
 ## _Preemptive cache_
 
 * #### Вытесняющий кэш для высоконагруженной системы.
