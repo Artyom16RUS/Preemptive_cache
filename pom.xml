@@ -125,36 +125,30 @@
         </dependency>
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cache</url>
-        </repository>
-    </distributionManagement>
 
 
-    <!--    <distributionManagement>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <name>Preemptive cache</name>-->
-    <!--            <url>file://${project.build.directory}/mvn-repo</url>-->
-    <!--        </repository>-->
-    <!--    </distributionManagement>-->
 
-    <!--    <distributionManagement>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cahe</url>-->
-    <!--        </repository>-->
-    <!--    </distributionManagement>-->
+<!--        <distributionManagement>-->
+<!--            <repository>-->
+<!--                <id>github</id>-->
+<!--                <name>Preemptive cache</name>-->
+<!--                <url>file://${project.build.directory}/mvn-repo</url>-->
+<!--            </repository>-->
+<!--        </distributionManagement>-->
 
-    <!--    <repositories>-->
-    <!--        <repository>-->
-    <!--            <id>github</id>-->
-    <!--            <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cahe</url>-->
-    <!--        </repository>-->
-    <!--    </repositories>-->
+        <distributionManagement>
+            <repository>
+                <id>enrise</id>
+                <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cache</url>
+            </repository>
+        </distributionManagement>
+
+        <repositories>
+            <repository>
+                <id>ensrise</id>
+                <url>https://maven.pkg.github.com/Artyom16RUS/Preemptive_cache</url>
+            </repository>
+        </repositories>
 
     <!--    mvn deploy -Dregistry=https://maven.pkg.github.com/Artyom16RUS -Dtoken=GH_TOKEN-->
 </project>
