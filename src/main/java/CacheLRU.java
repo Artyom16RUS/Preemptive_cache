@@ -19,7 +19,7 @@ class CacheLRU<K, V> {
      */
 
     public CacheLRU(int quantity) {
-        this.map = Collections.synchronizedMap(new LinkedHashMap<>() {
+        map = Collections.synchronizedMap(new LinkedHashMap<>() {
             @Override
             protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
                 return size() > quantity;
